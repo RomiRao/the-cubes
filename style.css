@@ -15,31 +15,59 @@ body {
 div {
     border-radius: 7px;
     padding: 20px;
-    transition: transform, border-radius, 0.7s;
+    transition: transform, border-radius, 2s;
+}
+
+.cube-1 {
+    width: 80px;
+    height: 80px;
+    background-color: #EEC88C;
+}
+
+.cube-2 {
+    background-color: #369E87;
+}
+
+.cube-3 {
+    background-color: #148A91;
+}
+
+.cube-4 {
+    background-color: #195373;
+}
+
+.cube-5 {
+    background-color: #242359;
+}
+
+.cube-6 {
+    background-color: #541B53;
+}
+
+.cube-7 {
+    background-color: #A0488E;
+}
+
+.cube-8 {
+    background-color: #E5B5E6;
+}
+
+.cube-9 {
+    background-color: #D0CDEA;
+}
+
+.cube-10 {
+    background-color: #A7A3F5;
+}
+
+.cube-11 {
+    background-color: #716EC9;
 }
 
 div:hover {
     transform: rotate(180deg);
 }
 
-.first-div {
-    background-color: red;
-}
-
-.second-div {
-    background-color: tomato;
-}
-
-.third-div {
-    background-color: orange;
-}
-
-.fourth-div {
-    width: 80px;
-    height: 80px;
-    background-color: yellow;
-}
-
-div .fourth-div:hover {
+div .cube-1:hover {
     border-radius: 50%;
 }
