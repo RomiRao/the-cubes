@@ -71,3 +71,7 @@ div:hover {
 div .cube-1:hover {
     border-radius: 50%;
 }
+
+div {
+    overflow: hidden;
+}
